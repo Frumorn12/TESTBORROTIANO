@@ -29,6 +29,6 @@ public class FunnyAlgorithmTest {
         list.add(2);
         list.add(3);
         list.add(-7);
-        assertEquals(-1, funnyAlgorithm.findIndex(list, 5));
+        assertEquals(-1, funnyAlgorithm.findIndex(list, 5)); // Se l'elemento non è presente nella lista, restituisco -1
     }
 }
