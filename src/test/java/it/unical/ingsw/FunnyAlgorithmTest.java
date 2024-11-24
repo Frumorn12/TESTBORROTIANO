@@ -8,8 +8,8 @@ import static org.junit.Assert.assertEquals;
 public class FunnyAlgorithmTest {
     private static final FunnyAlgorithm funnyAlgorithm = new FunnyAlgorithm();
     @Test
-    public void testFindIndex() {
-        List<Integer> list = new ArrayList<>();
+    public void testFindIndex() { // In questo test si verifica che il metodo findIndex funzioni correttamente
+        List<Integer> list = new ArrayList<>(); // Creo una lista di interi
         list.add(2);
         list.add(3);
         list.add(-7);
@@ -28,7 +28,7 @@ public class FunnyAlgorithmTest {
         List<Integer> list = new ArrayList<>();
         list.add(2);
         list.add(3);
-        list.add(-7);
-        assertEquals(-1, funnyAlgorithm.findIndex(list, 5));
+        list.add(-7);// Se l'elemento non è presente nella lista, restituisco -1
+        assertEquals(-1, funnyAlgorithm.findIndex(list, 5)); // Se l'elemento non è presente nella lista, restituisco -1
     }
 }

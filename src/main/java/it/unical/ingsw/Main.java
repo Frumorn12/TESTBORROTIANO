@@ -12,7 +12,7 @@ public class Main {
 			List<Integer> list = Arrays.asList(new Integer[]{2, 3, -7});
 			System.out.println(m.findIndex(list, 2 ));
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.printStackTrace(); // 
 		}
 	}
 
