@@ -10,13 +10,10 @@ public class FunnyAlgorithm {
 		}
 
 		for (int i = 0; i < list.size()-1; i++) {
-			if(list.get(i) == value){
+			if(list.get(i) == value){ // Se l'elemento in posizione i è uguale a value, restituisco i
 				return i;
 			}
 		}
 		return -1;
 	}
-
-
-
 }
